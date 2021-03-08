@@ -39,18 +39,32 @@
   //   sum += parseInt(quest);
   // }
   //
-  // document.getElementsById('risultato').innerHTML = "il risultato è : " + sum;
+  // document.getElementById('risultato').innerHTML = "il risultato è : " + sum;
 
 
   //Richiedere all'utente dei valori finche' la relativa somma non supera il 50.
+  // var num = 0;
+  // while (num < 50) {
+  //   var index = parseInt(prompt('inserisci un numero da sommare :'));
+  //   num += index;
+  //   console.log(num);
+  // }
+  //
+  // document.getElementById('risultato').innerHTML = "il risultato è : " + num;
+
+
+
+  //Richiedere all'utente dei valori di cui calcolare la somma, finche' l'utente fornisce valori positivi
   var num = 0;
-  while (num < 50) {
+  var index = 1;
+  while (index >= 0) {
     var index = parseInt(prompt('inserisci un numero da sommare :'));
     num += index;
     console.log(num);
   }
 
   document.getElementById('risultato').innerHTML = "il risultato è : " + num;
+
 
   </script>
 </html>
