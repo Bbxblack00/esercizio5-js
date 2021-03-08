@@ -20,7 +20,16 @@
   </body>
   <script type="text/javascript">
 
-  
+
+  var i = 0;
+  var sum = 0;
+  while (i < 5) {
+    var quest = prompt('inserisci un numero : ');
+    sum += parseInt(quest);
+    ++i;
+  }
+
+  document.getElementById('risultato').innerHTML = "il risultato è : " + sum;
 
   </script>
 </html>
